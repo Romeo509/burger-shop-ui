@@ -224,11 +224,11 @@ const styles = {
     position: "absolute",
     bottom: "7%", // Position it at the bottom of the screen
     left: "0",
-    width: "100%",
+    width: "90%",
     height: "50px", // Height of the footer
     background: "rgba(255, 255, 255, 0.5)", // Opaque background for the footer
     backdropFilter: "blur(5px)", // Glassmorphism effect
-    borderRadius: "10px", // Optional rounded corners for the footer
+    //borderRadius: "10px", // Optional rounded corners for the footer
     display: "flex",
     justifyContent: "space-evenly", // Distribute icons evenly
     alignItems: "center",
