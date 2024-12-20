@@ -215,8 +215,8 @@ const styles = {
     backdropFilter: "blur(5px)",
   },
   image: {
-    width: "80%", // Ensure the image covers the box completely
-    height: "80%",
+    width: "90%", // Ensure the image covers the box completely
+    height: "90%",
     borderRadius: "10px",
 	objectFit: "cover", // Ensure the image scales correctly inside the box
   },
