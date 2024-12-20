@@ -87,7 +87,7 @@ const styles = {
   },
   gridItem: {
     position: "absolute",
-    top: "0px", // Spacing from the top
+    top: "25px", // Spacing from the top
     left: "10px", // Spacing from the left
     backgroundColor: "transparent", // Hollow effect
     padding: "5px", // Padding around the icon inside the box
@@ -95,8 +95,8 @@ const styles = {
   },
   searchIconContainer: {
     position: "absolute",
-    top: "0px", // Spacing from the top
-    right: "10px", // Spacing from the right
+    top: "25px", // Spacing from the top
+    right: "40px", // Spacing from the right
     backgroundColor: "#333", // Background color for the search icon container
     padding: "5px", // Padding around the search icon
     borderRadius: "40%", // Making the search icon round
@@ -107,18 +107,20 @@ const styles = {
   mainContent: {
     padding: "20px",
     textAlign: "left",
-    marginTop: "50px", // Spacing from the top for the title/content
+    marginTop: "0px", // Spacing from the top for the title/content
   },
   title: {
     fontSize: "2rem",
     fontWeight: "bold",
+	marginTop: "calc(20% + 0px)",
+	
   },
   description: {
     fontSize: "1.2rem",
   },
   navBar: {
     position: "absolute",
-    top: "calc(27% + 30px)", // Position below the text (you can adjust this based on your content)
+    top: "calc(30% + 30px)", // Position below the text (you can adjust this based on your content)
     left: "0",
     width: "100%",
     height: "40px", // Height of the transparent bar
@@ -160,19 +162,19 @@ const styles = {
     display: "grid", // Use grid to arrange the boxes
     gridTemplateColumns: "repeat(2, 1fr)", // 2 boxes horizontally
     gap: "15px", // Space between the boxes
-    marginTop: "calc(2% + 10px)", // Start after the nav bar
+    marginTop: "calc(7% + 10px)", // Start after the nav bar
     marginBottom: "60px", // Space between the boxes and footer
-    marginLeft: "auto", // Center horizontally
+    marginLeft: "calc(2% + 10px)", // Center horizontally
     marginRight: "auto", // Center horizontally
-    width: "75%", // Make the grid container width 90% to leave some space on the sides
-    padding: "8px", // Padding inside the container
+    width: "80%", // Make the grid container width 90% to leave some space on the sides
+    padding: "10px", // Padding inside the container
     position: "relative", // Ensure proper positioning
   },
   box1: {
     borderRadius: "10px", // Rounded corners
     overflow: "hidden", // Hide overflowing parts of the image
-    height: "105px", // Fixed height for square box
-    width: "117px", // Fixed width for square box
+    height: "120px", // Fixed height for square box
+    width: "130px", // Fixed width for square box
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
@@ -182,8 +184,8 @@ const styles = {
   box2: {
     borderRadius: "10px", // Rounded corners
     overflow: "hidden", // Hide overflowing parts of the image
-    height: "105px",
-    width: "117px",
+    height: "120px", // Fixed height for square box
+    width: "130px", // Fixed width for square box
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
@@ -193,8 +195,8 @@ const styles = {
   box3: {
     borderRadius: "10px", // Rounded corners
     overflow: "hidden", // Hide overflowing parts of the image
-    height: "105px",
-    width: "117px",
+    height: "120px", // Fixed height for square box
+    width: "130px", // Fixed width for square box
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
@@ -204,8 +206,8 @@ const styles = {
   box4: {
     borderRadius: "10px", // Rounded corners
     overflow: "hidden", // Hide overflowing parts of the image
-    height: "105px",
-    width: "117px",
+    height: "120px", // Fixed height for square box
+    width: "130px", // Fixed width for square box
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
@@ -220,7 +222,7 @@ const styles = {
   },
   footer: {
     position: "absolute",
-    bottom: "0", // Position it at the bottom of the screen
+    bottom: "7%", // Position it at the bottom of the screen
     left: "0",
     width: "100%",
     height: "50px", // Height of the footer
